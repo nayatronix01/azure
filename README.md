@@ -62,7 +62,10 @@ enter Existing Virtual Network Resource Group
 Enter Existing subnet name  
 
 
+The rest of the options can be left as thtey are or can be changed to suit 
+Click on Next:Review + create button 
 
+If validation succeeds, click on create. Otherwise click Previous and correct errors.
 
 
 
