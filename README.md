@@ -55,7 +55,7 @@ Enter Existing Service Principal Object Id  - select Azure Active Directory, use
 Enter Existing Service Principal Client Id  - select Azure Active Director, app registrations. add new registration for app. Copy application (client) ID.  
 Existing Service Principal Client Secret  - select Certificates and Secrets in lef pane and add new client secret. Copy secret. Only visible on creation so store. 
 
-
+Enable Http Applicaiion routing 
 Select built in role type  
 Enter Existing Virtual network name  
 enter Existing Virtual Network Resource Group  
