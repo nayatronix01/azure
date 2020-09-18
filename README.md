@@ -49,7 +49,6 @@ Assign Resource name
 Enter location 
 Enter DNS prefix  
 
-To get info below, type in and select Azure Active Directory in search box at top of page, go to App registrations, and add new registration if one does not exist. Click on app and copy object ID. For client secret, select Certificates and Secrets in lef pane and add new client secret. Copy secret.  
 
 Enter Existing Service Principal Object Id  - select Azure Active Directory, users. Select user. Copy Object ID under Identity section  
 Enter Existing Service Principal Client Id  - select Azure Active Director, app registrations. add new registration for app. Copy application (client) ID.  
