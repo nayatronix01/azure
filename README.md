@@ -33,7 +33,7 @@ Click on Next:Review + create button
 If validation succeeds, click on create. Otherwise click Previous and correct errors.
 
 
-## AKE WordPress
+## AKS WordPress
 
 virtual network needs to be created and subnet assigned first as template requests existing (not new) info.
 
