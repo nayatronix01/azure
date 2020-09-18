@@ -3,9 +3,7 @@
 
 ## WordPress with SQL Replicaton 
 
-[WordPress with SQL Replication]
-
-(https://portal.azure.com/#create/Microsoft.Template/uri/https%3A%2F%2Fraw.githubusercontent.com%2FAzure%2Fazure-quickstart-templates%2Fmaster%2Fwordpress-mysql-replication%2Fazuredeploy.json)
+[WordPress with SQL Replication](https://portal.azure.com/#create/Microsoft.Template/uri/https%3A%2F%2Fraw.githubusercontent.com%2FAzure%2Fazure-quickstart-templates%2Fmaster%2Fwordpress-mysql-replication%2Fazuredeploy.json)  
 
 Click on link above  
 Log into Azure portal
@@ -37,8 +35,9 @@ If validation succeeds, click on create. Otherwise click Previous and correct er
 
 ## AKE WordPress
 
-[AKS] 
-(https://portal.azure.com/#create/Microsoft.Template/uri/https%3a%2f%2fraw.githubusercontent.com%2fAzure%2fazure-quickstart-templates%2fmaster%2f101-aks-advanced-networking%2fazuredeploy.json)
+virtual network needs to be created and subnet assigned first as template requests existing (not new) info.
+
+[AKS](https://portal.azure.com/#create/Microsoft.Template/uri/https%3a%2f%2fraw.githubusercontent.com%2fAzure%2fazure-quickstart-templates%2fmaster%2f101-aks-advanced-networking%2fazuredeploy.json)
 
 
 Click on link above  
