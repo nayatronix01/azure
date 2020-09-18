@@ -1,8 +1,7 @@
 # Azure HA using Azure Resource Manager
 
-I have used Azure once before and the timeframe for this requirement and getting up to speed with Azure is too short. I investigated and found that Azure Resource manager is used to deploy templates in Azure. The templates below can be used to deploy the services in Azure:  
 
-## WordPress with SQL Replicaton
+## WordPress with SQL Replicaton 
 
 [WordPress with SQL Replication]
 
@@ -36,6 +35,36 @@ Click on Next:Review + create button
 If validation succeeds, click on create. Otherwise click Previous and correct errors.
 
 
+## AKE WordPress
 
 [AKS] 
 (https://portal.azure.com/#create/Microsoft.Template/uri/https%3a%2f%2fraw.githubusercontent.com%2fAzure%2fazure-quickstart-templates%2fmaster%2f101-aks-advanced-networking%2fazuredeploy.json)
+
+
+Click on link above  
+Log in to Azure  
+Select subscription  
+Select Resource Group  
+Select Region  
+Assign Resource name  
+Enter location 
+Enter DNS prefix  
+
+To get info below, type in and select Azure Active Directory in search box at top of page, go to App registrations, and add new registration if one does not exist. Click on app and copy object ID. For client secret, select Certificates and Secrets in lef pane and add new client secret. Copy secret.  
+
+Enter Existing Service Principal Object Id  - select Azure Active Directory, users. Select user. Copy Object ID under Identity section  
+Enter Existing Service Principal Client Id  - select Azure Active Director, app registrations. add new registration for app. Copy Object ID.  
+Existing Service Principal Client Secret  - select Certificates and Secrets in lef pane and add new client secret. Copy secret. Only visible on creation so store. 
+
+
+Select built in role type  
+Enter Existing Virtual network name  
+enter Existing Virtual Network Resource Group  
+Enter Existing subnet name  
+
+
+
+
+
+
+
